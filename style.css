@@ -1,0 +1,143 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* Navbar */
+
+header {
+    background-color:#290b93;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(9, 19, 154);
+    padding: 30px;
+    box-shadow: 2px 2px 4px black;
+    
+}
+
+nav h2 {
+    color: rgb(6, 227, 227);
+    text-shadow: 2px 2px 4px black;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+
+/* Home */
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 8%;
+    background-image: url("logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50px 30px;
+    
+}
+
+.home h1 {
+    font-size: 45px;
+    margin-left: 500px;
+}
+
+#home h1 span {
+    color: #1b0981;
+}
+#home h1{
+    color: #0c0797;
+}
+
+#home h2 {
+    margin-left:600px;
+    text-shadow: 2px 2px 4px blue;
+    
+}
+
+.home p {
+    max-width: 500px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px black;
+    font-style:italic;
+    margin-left:500px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00a6c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left:500px;
+    box-shadow: 2px 2px 4px blueviolet;
+
+}
+
+#about h1{
+    margin-left: 500px;
+    
+}
+#about p{
+    box-shadow: 2px 2px 4px black;
+    background-color: rgb(225, 229, 229);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+button {
+    padding: 12px 25px;
+    background-color: #00a6c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#home h1{
+    text-shadow: 2px 2px 4px black;
+}

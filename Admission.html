@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+
+    <h1>College Admission Form</h1>
+
+    <form>
+
+        <h2>Personal Information</h2>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required>
+        <br><br>
+
+        <label>Father's Name:</label>
+        <input type="text" name="fathername" required>
+        <br><br>
+
+        <label>Mother's Name:</label>
+        <input type="text" name="mothername" required>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+
+        <h2>Contact Information</h2>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile">
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city">
+        <br><br>
+
+        <label>State:</label>
+        <input type="text" name="state">
+        <br><br>
+
+        <label>Pin Code:</label>
+        <input type="text" name="pincode">
+        <br><br>
+
+
+        <h2>Academic Information</h2>
+
+        <label>10th Percentage:</label>
+        <input type="number" name="10th">
+        <br><br>
+
+        <label>12th Percentage:</label>
+        <input type="number" name="12th">
+        <br><br>
+
+        <label>Select Course:</label>
+        <select name="course">
+            <option>Select Course</option>
+            <option>B.Tech CSE</option>
+            <option>B.Tech ECE</option>
+            <option>B.Tech ME</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select>
+        <br><br>
+
+
+        <h2>Documents</h2>
+
+        <label>Upload Photo:</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <label>Upload 10th Marksheet:</label>
+        <input type="file" name="marksheet10">
+        <br><br>
+
+        <label>Upload 12th Marksheet:</label>
+        <input type="file" name="marksheet12">
+        <br><br>
+
+
+        <h2>Declaration</h2>
+
+        <input type="checkbox" name="declaration" required>
+        I declare that all the information provided by me is correct.
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
