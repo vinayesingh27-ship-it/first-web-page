@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eef1ff;
+    font-family: Georgia, serif;
+    color: #1c2545;
+    padding: 34px;
+}
+
+/* Header */
+header {
+    background-color: #3159e9;
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+    border-radius: 22px;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 34px;
+}
+
+/* Events Section */
+.events {
+    background-color: white;
+    padding: 35px;
+    border-radius: 22px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 52px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3159e9;
+    color: white;
+    text-align: left;
+    padding: 22px 18px;
+    font-size: 36px;
+}
+
+td {
+    padding: 22px 18px;
+    font-size: 34px;
+    border-bottom: 2px solid #d0d3df;
+}
+
+/* Register Section */
+.register {
+    background-color: white;
+    padding: 35px;
+    border-radius: 22px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 12px;
+}
+
+label {
+    font-size: 34px;
+}
+
+input {
+    padding: 15px;
+    font-size: 28px;
+    width: 385px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3159e9;
+    color: white;
+    border: none;
+    padding: 20px 38px;
+    font-size: 30px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #183fc5;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 42px;
+    }
+
+    header p {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .events, .register {
+        padding: 20px;
+    }
+
+    th, td {
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+
+    .form-group {
+        flex-wrap: wrap;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}

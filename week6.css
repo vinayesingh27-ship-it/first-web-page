@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #14213d;
+}
+
+/* Navbar */
+.navbar {
+    height: 106px;
+    background: #12203b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 43px;
+}
+
+.logo {
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+}
+
+.nav-links a:hover {
+    color: #ffb800;
+}
+
+/* Buttons */
+button {
+    background: #ffb800;
+    color: black;
+    border: none;
+    padding: 16px 29px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e6a600;
+}
+
+/* Hero Section */
+.hero {
+    height: 465px;
+    background: #3159e9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin-bottom: 22px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+/* Courses */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    padding: 43px;
+}
+
+.card {
+    background: #eef2ff;
+    border-radius: 19px;
+    padding: 36px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card h2 {
+    font-size: 34px;
+}
+
+.card p {
+    font-size: 28px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Footer */
+footer {
+    background: #12203b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 17px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 19px;
+    }
+
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .courses {
+        grid-template-columns: 1fr;
+    }
+}
